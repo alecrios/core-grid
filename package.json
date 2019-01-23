@@ -1,0 +1,23 @@
+{
+  "name": "core-grid",
+  "version": "1.0.0",
+  "description": "A CSS grid that streamlines layout development",
+  "keywords": [
+    "css",
+    "grid"
+  ],
+  "main": "core-grid.css",
+   "files": [
+    "core-grid.css"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alecrios/core-grid.git"
+  },
+  "author": "Alec Rios",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alecrios/core-grid/issues"
+  },
+  "homepage": "https://github.com/alecrios/core-grid#readme"
+}
