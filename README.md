@@ -102,30 +102,32 @@ A `.col` can be hidden by using a class suffixed with `0`. This applies `display
 
 The grid uses logical breakpoints, evenly distributed at 16rem intervals to create a smooth gradation.
 
-| Prefix | Window Width (em) | Window Width (px)
-| .xs-* | >= 0 | >= 0 |
-| .sm-* | >= 32em | >= 512px |
-| .md-* | >= 48em | >= 768px |
-| .lg-* | >= 64em | >= 1024px |
-| .xl-* | >= 80em | >= 1280px |
+| Prefix  | Window Width (em) | Window Width (px) |
+| ------- | ----------------- | ----------------- |
+| `.xs-*` | >= 0              | >= 0              |
+| `.sm-*` | >= 32em           | >= 512px          |
+| `.md-*` | >= 48em           | >= 768px          |
+| `.lg-*` | >= 64em           | >= 1024px         |
+| `.xl-*` | >= 80em           | >= 1280px         |
 
 #### Column Widths
 
 The grid uses a 12-column system in order to provide a high level of freedom. Additionally, the `0` suffix hides the column, and the `min` and `max` suffixes provide more situational behavior.
 
-| Suffix | Column Width |
-| .*-0 | _Hidden_ |
-| .*-1 | 8.3333%% |
-| .*-2 | 16.6667% |
-| .*-3 | 25% |
-| .*-4 | 33.3333% |
-| .*-5 | 41.6667% |
-| .*-6 | 50% |
-| .*-7 | 58.3333% |
-| .*-8 | 66.6667% |
-| .*-9 | 75% |
-| .*-10 | 83.3333% |
-| .*-11 | 91.6667% |
-| .*-12 | 100% |
-| .*-min | Occupies up the minimum space required |
-| .*-max | Occupies up the maximum space available |
+| Suffix   | Column Width            |
+| -------- | ----------------------- |
+| `.*-0`   | _Hidden_                |
+| `.*-1`   | 8.3333%%                |
+| `.*-2`   | 16.6667%                |
+| `.*-3`   | 25%                     |
+| `.*-4`   | 33.3333%                |
+| `.*-5`   | 41.6667%                |
+| `.*-6`   | 50%                     |
+| `.*-7`   | 58.3333%                |
+| `.*-8`   | 66.6667%                |
+| `.*-9`   | 75%                     |
+| `.*-10`  | 83.3333%                |
+| `.*-11`  | 91.6667%                |
+| `.*-12`  | 100%                    |
+| `.*-min` | Minimum space required  |
+| `.*-max` | Maximum space available |
