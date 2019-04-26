@@ -20,7 +20,7 @@ Core Grid is a modern flexbox grid system that aims to solve several issues with
 ## Installation
 
 ```
-npm install --save core-grid
+npm install core-grid
 ```
 
 ## Usage
@@ -96,9 +96,9 @@ A `.col` can be hidden by using a class suffixed with `0`. This applies `display
 </div>
 ```
 
-### Reference
+## Reference
 
-#### Window Widths
+### Window Widths
 
 The grid uses logical breakpoints, evenly distributed at 16rem intervals to create a smooth gradation.
 
@@ -110,7 +110,7 @@ The grid uses logical breakpoints, evenly distributed at 16rem intervals to crea
 | `.lg-*` | >= 64em           | >= 1024px         |
 | `.xl-*` | >= 80em           | >= 1280px         |
 
-#### Column Widths
+### Column Widths
 
 The grid uses a 12-column system in order to provide a high level of freedom. Additionally, the `0` suffix hides the column, and the `min` and `max` suffixes provide more situational behavior.
 
