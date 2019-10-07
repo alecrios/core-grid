@@ -1,0 +1,65 @@
+.row {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.row > .col {
+	display: block;
+	flex: 1 1 0;
+	width: auto;
+}
+
+$breakpoints: ('xs': 0, 'sm': 32, 'md': 48, 'lg': 64, 'xl': 80);
+
+@each $name, $width in $breakpoints {
+	@media (min-width: #{$width}em) {
+		.row > .col.#{$name}-0 {display: none}
+
+		.row > .col.#{$name}-1,
+		.row > .col.#{$name}-2,
+		.row > .col.#{$name}-3,
+		.row > .col.#{$name}-4,
+		.row > .col.#{$name}-5,
+		.row > .col.#{$name}-6,
+		.row > .col.#{$name}-7,
+		.row > .col.#{$name}-8,
+		.row > .col.#{$name}-9,
+		.row > .col.#{$name}-10,
+		.row > .col.#{$name}-11,
+		.row > .col.#{$name}-12,
+		.row > .col.#{$name}-min,
+		.row > .col.#{$name}-max {display: block}
+
+		.row > .col.#{$name}-1,
+		.row > .col.#{$name}-2,
+		.row > .col.#{$name}-3,
+		.row > .col.#{$name}-4,
+		.row > .col.#{$name}-5,
+		.row > .col.#{$name}-6,
+		.row > .col.#{$name}-7,
+		.row > .col.#{$name}-8,
+		.row > .col.#{$name}-9,
+		.row > .col.#{$name}-10,
+		.row > .col.#{$name}-11,
+		.row > .col.#{$name}-12,
+		.row > .col.#{$name}-min {flex: none}
+
+		.row > .col.#{$name}-min,
+		.row > .col.#{$name}-max {width: auto}
+
+		.row > .col.#{$name}-1 {width: 8.3333%}
+		.row > .col.#{$name}-2 {width: 16.6667%}
+		.row > .col.#{$name}-3 {width: 25%}
+		.row > .col.#{$name}-4 {width: 33.3333%}
+		.row > .col.#{$name}-5 {width: 41.6667%}
+		.row > .col.#{$name}-6 {width: 50%}
+		.row > .col.#{$name}-7 {width: 58.3333%}
+		.row > .col.#{$name}-8 {width: 66.6667%}
+		.row > .col.#{$name}-9 {width: 75%}
+		.row > .col.#{$name}-10 {width: 83.3333%}
+		.row > .col.#{$name}-11 {width: 91.6667%}
+		.row > .col.#{$name}-12 {width: 100%}
+
+		.row > .col.#{$name}-max {flex: 1 1 0}
+	}
+}
