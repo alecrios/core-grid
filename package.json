@@ -1,6 +1,6 @@
 {
   "name": "core-grid",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A CSS grid that streamlines layout development",
   "scripts": {
     "build": "node-sass --indent-type tab --output-style expanded --indent-width 1 core-grid.scss core-grid.css"
